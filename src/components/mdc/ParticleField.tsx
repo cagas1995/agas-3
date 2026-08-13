@@ -27,7 +27,7 @@ export function ParticleField({ density = 140 }: { density?: number }) {
         x: (Math.random() - 0.5) * 1600,
         y: (Math.random() - 0.5) * 1000,
         z: Math.random() * 1400 + 40,
-        c: palette[Math.floor(Math.random() * palette.length)],
+        c: palette[Math.floor(Math.random() * palette.length)] as string,
         r: Math.random() * 1.8 + 0.5,
       }));
     };
