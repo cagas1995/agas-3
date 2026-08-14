@@ -71,10 +71,10 @@
   --gradient-blood: linear-gradient(135deg, oklch(0.72 0.24 27), oklch(0.5 0.22 27));
   --gradient-steel: linear-gradient(
     145deg,
-    oklch(0.95 0 0),
-    oklch(0.62 0 0) 45%,
-    oklch(0.9 0 0) 55%,
-    oklch(0.45 0 0)
+    oklch(1 0 0),
+    oklch(0.82 0 0) 42%,
+    oklch(0.98 0 0) 55%,
+    oklch(0.7 0 0)
   );
   --glow-volt: 0 0 24px color-mix(in oklab, var(--volt) 55%, transparent);
   --glow-blood: 0 0 30px color-mix(in oklab, var(--blood) 45%, transparent);
