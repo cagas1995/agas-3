@@ -59,7 +59,7 @@ export function Hero() {
             <img
               src={logo.url}
               alt="MDC — Mastery Canvas Digital logo"
-              className="mx-auto w-full drop-shadow-[0_30px_60px_rgba(255,30,30,0.35)] mix-blend-screen"
+              className="mx-auto w-full mix-blend-screen"
             />
           </div>
         </motion.div>
@@ -85,7 +85,7 @@ export function Hero() {
               animate={{ opacity: 1, rotateY: 0, x: 0 }}
               transition={{ delay: 0.6 + i * 0.18, duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
               className={`font-display text-sm tracking-[0.4em] sm:text-lg ${
-                i === 1 ? "text-accent" : "text-steel"
+                i === 1 ? "text-accent" : "text-[oklch(0.9_0_0)]"
               }`}
             >
               {w}
