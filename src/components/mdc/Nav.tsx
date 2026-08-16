@@ -1,8 +1,9 @@
 import { Link } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
-import icon from "@/assets/mdc-icon.png.asset.json";
+import icon from "@/assets/mdc-icon-clear.png.asset.json";
 
 const links = [
+  { href: "/#about", label: "About" },
   { href: "/#services", label: "Services" },
   { href: "/#work", label: "Work" },
   { href: "/#system", label: "System" },
@@ -31,13 +32,13 @@ export function Nav() {
         <Link to="/" className="flex items-center gap-3">
           <img
             src={icon.url}
-            alt="Mastery Canvas Digital logo"
-            className="h-10 w-10 rounded-lg object-cover transition-transform duration-500 hover:rotate-12"
+            alt="Marcelo Danzel Cagas logo"
+            className="h-10 w-10 object-contain transition-transform duration-500 hover:rotate-12"
           />
           <span className="hidden font-display text-sm tracking-[0.25em] sm:block">
-            <span className="text-chrome">MASTERY </span>
-            <span className="text-accent">CANVAS</span>
-            <span className="text-chrome"> DIGITAL</span>
+            <span className="text-chrome">MARCELO </span>
+            <span className="text-accent">DANZEL</span>
+            <span className="text-chrome"> CAGAS</span>
           </span>
         </Link>
 
