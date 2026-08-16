@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Nav } from "@/components/mdc/Nav";
 import { Hero } from "@/components/mdc/Hero";
+import { About } from "@/components/mdc/About";
 import { Services } from "@/components/mdc/Services";
 import { Showcase } from "@/components/mdc/Showcase";
 import { SystemJourney } from "@/components/mdc/SystemJourney";
@@ -8,7 +9,7 @@ import { Industries } from "@/components/mdc/Industries";
 import { Contact } from "@/components/mdc/Contact";
 import { Footer } from "@/components/mdc/Footer";
 
-const title = "Marcelo Danzel Cagas | GoHighLevel Specialist — Mastery Canvas Digital";
+const title = "Marcelo Danzel Cagas | GoHighLevel Specialist";
 const description =
   "GoHighLevel All-Rounder: agency setup, CRM automation, AI receptionists, funnels and websites built end to end. Automate. Dominate. Elevate.";
 
@@ -31,6 +32,7 @@ function Index() {
     <main className="relative min-h-screen overflow-x-hidden">
       <Nav />
       <Hero />
+      <About />
       <Services />
       <Showcase />
       <SystemJourney />

@@ -1,6 +1,6 @@
 import { motion, useScroll, useTransform } from "motion/react";
 import { useEffect, useRef, useState } from "react";
-import logo from "@/assets/mdc-logo.png.asset.json";
+import logo from "@/assets/mdc-logo-clear.png.asset.json";
 import { ParticleField } from "./ParticleField";
 import { stats } from "@/data/portfolio";
 
@@ -58,7 +58,7 @@ export function Hero() {
           >
             <img
               src={logo.url}
-              alt="MDC — Mastery Canvas Digital logo"
+              alt="MDC — Marcelo Danzel Cagas logo"
               className="mx-auto w-full mix-blend-screen"
             />
           </div>
@@ -70,11 +70,11 @@ export function Hero() {
           transition={{ delay: 0.35, duration: 0.9 }}
           className="mt-2 font-display text-2xl tracking-[0.35em] sm:text-4xl"
         >
-          <span className="text-chrome">MASTERY </span>
+          <span className="text-chrome">MARCELO </span>
           <span className="text-accent" style={{ textShadow: "0 0 26px rgba(57,255,20,.55)" }}>
-            CANVAS
+            DANZEL
           </span>
-          <span className="text-chrome"> DIGITAL</span>
+          <span className="text-chrome"> CAGAS</span>
         </motion.h1>
 
         <div className="mt-5 flex flex-wrap items-center justify-center gap-x-5 gap-y-2">
